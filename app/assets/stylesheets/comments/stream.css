@@ -1,0 +1,25 @@
+.comment-body{
+  display: flex;
+}
+
+.comment-image{
+  border-radius: 50%;
+}
+
+.comment-content{
+  margin-top: 10px;
+}
+
+.comment-name{
+  color: rgb(92, 92, 92);
+  font-size: 12px;
+}
+
+.comment-time{
+  font-size: 10px;
+  color: rgb(143, 143, 143);
+}
+
+.comment-text{
+  margin-top: 5px;
+}
