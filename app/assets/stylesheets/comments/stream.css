@@ -1,18 +1,34 @@
+
+.comment-header{
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 1px 1px 2px rgb(173, 173, 173);
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
+  color: rgb(97, 97, 97);
+}
+
 .comment-body{
+  padding-top: 50px;
   display: flex;
 }
 
-.comment-image{
+.user-icon{
   border-radius: 50%;
 }
 
 .comment-content{
-  margin-top: 10px;
+  margin: auto 0;
 }
 
 .comment-name{
-  color: rgb(92, 92, 92);
-  font-size: 12px;
+  color: rgb(131, 131, 131);
 }
 
 .comment-time{
