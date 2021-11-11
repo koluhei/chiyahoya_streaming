@@ -3,6 +3,7 @@ class CommentsController < ApplicationController
   end
 
   def stream
-    @comment = Comment.where('id >= ?', rand(Comment.first.id..Comment.last.id)).first
+    @comments = Comment.all
+    @comment = Comment.where('id >= ?', rand(Comment.first.id..Comment.last.id)).first   #ランダムにレコードを１件取得
   end
 end
